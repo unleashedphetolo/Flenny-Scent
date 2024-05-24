@@ -1,0 +1,112 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.image-container {
+    width: 95%;
+    text-align: center;
+    height: 350px;    
+    margin-top: 12px;
+}
+
+.image-container img {
+    width: 95%;
+    height: 350px;
+    margin-top: 12px;
+}
+
+
+
+.container .men-shop {
+    position: absolute;
+    bottom:1%;
+    left: 40.3%;
+    /* transform: translate(-50%, -50%); */
+    /* -ms-transform: translate(-50%, -50%); */
+    background-color: #b37224;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .men-shop:hover {
+    background-color: rgb(99, 60, 14);
+  }
+
+  .container .women-shop {
+    position: absolute;
+    bottom:1%;
+    right:2%;
+    background-color: #b37224;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .women-shop:hover {
+    background-color: rgb(99, 60, 14);
+  }
+
+
+  .container .shop-all {
+    position: absolute;
+    top: 90%;
+    left: -45%;
+    background-color: #b7205a;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .shop-all:hover {
+    background-color: rgb(99, 60, 14);
+  }
+
+
+  .perfume-title {
+    position: absolute;
+    top: 15%;
+    right: 75%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+  }
+
+  .perfume-title2 {
+    position: absolute;
+    top: 15%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .cart-link {
+    position: relative;
+    bottom: -40px; 
+    left: 268px;
+  }
+  .cart-icon {
+    font-size: 24px;
+  }
