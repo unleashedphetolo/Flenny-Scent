@@ -8,9 +8,11 @@
   nav {
     background-color: #353030;
     color: #fff;
+    position: relative;
+
     padding: 20px;
     height: 500px;
-    background-image: url("https://www.jeanpaulgaultier.com/ww/sites/ww/files/styles/scale_1920/public/2024-03/header-plp-parfums-pour-femmes%20%281%29.jpg?itok=wL776OAm");
+    background-image: url("./assets/dark-nature-natural-perfume.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }

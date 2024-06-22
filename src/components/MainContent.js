@@ -1,10 +1,9 @@
 import React from 'react';
-
+import '../styles/MainContent.css';
 function MainContent() {
   return (
     <div className="main-content">
-      <h2>Experience the luxury of exquisite fragrances.</h2>
-      <p>The perfect scent for your unforgettable moments.</p>
+      <h1>Top Fragrance Brands</h1>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../assets/logo-flenny.jpg'
+import image from '../assets/flenny logo.jpg'
 import Men from '../assets/perfumes-for-men.jpeg';
 import Women from '../assets/Women-Perfumes.jpg';
 import '../styles/Navigation.css';
@@ -11,7 +11,7 @@ function Navigation() {
   return (
     <div>
     <nav style={{display:'flex', justifyContent:'space-between'}}>
-      <img src={image} alt="Flenny Scent Logo" style= {{height: "70%",top:"-150px",right:"40px", position: "relative",borderRadius: '155px'}}/>
+      <img src={image} alt="Flenny Scent Logo" style= {{height: "70%",top:"-150px",right:"40px", position: "relative",borderRadius: '855px', marginTop:'30px'}}/>
       <div className='container'>
       <div className="overlay">
             <div style={{marginTop:'170px'}}>
